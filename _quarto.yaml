@@ -1,0 +1,9 @@
+project:
+  type: website
+
+format:
+  revealjs:
+    theme: [default, custom.scss]
+    slide-number: true
+    incremental: true
+    transition: fade

@@ -1,0 +1,102 @@
+/*-- scss:defaults --*/
+$bg: #173A3F; // deep teal-charcoal
+$text: #F4EBDD; // warm cream
+$text-soft: #D8CCBC;
+
+$teal: #0F8A9D; // image teal
+$burnt: #C75A2A; // image burnt orange
+$mustard: #D9A441; // image mustard
+
+$body-bg: $bg;
+$body-color: $text;
+$link-color: #7FD4DE;
+$presentation-heading-color: $text;
+$presentation-title-slide-text-align: left;
+
+/*-- scss:rules --*/
+.reveal .slides section {
+  background: $bg;
+  color: $text;
+}
+
+.reveal h1,
+.reveal h2,
+.reveal h3 {
+  color: $text;
+  letter-spacing: 0.2px;
+}
+
+.reveal h2 {
+  display: inline-block;
+  padding-bottom: 0.2rem;
+  border-bottom: 4px solid $mustard;
+}
+
+.reveal p,
+.reveal li {
+  color: $text;
+}
+
+.reveal small,
+.reveal .dim {
+  color: $text-soft;
+}
+
+/* Links */
+.reveal a {
+  color: #7FD4DE;
+  text-decoration-color: rgba(127, 212, 222, 0.5);
+}
+
+.reveal a:hover {
+  color: #A7E8EE;
+}
+
+/* Text accents */
+.reveal strong {
+  color: #c76a38; // soft burnt-orange tint
+}
+
+.reveal em {
+  color: #eab43e; // mustard tint
+  font-style: normal;
+  font-weight: 600;
+}
+
+/* Blockquote */
+.reveal blockquote {
+  background: rgba(255, 255, 255, 0.06);
+  border-left: 6px solid $burnt;
+  color: $text;
+  border-radius: 8px;
+  padding: 0.7rem 1rem;
+}
+
+/* Code */
+.reveal pre code {
+  background: #0F1720;
+  color: #E7EDF3;
+  border: 1px solid #334155;
+  border-radius: 10px;
+}
+
+.reveal code {
+  background: rgba(255, 255, 255, 0.10);
+  color: #FFD7BF;
+  border-radius: 4px;
+  padding: 0.1rem 0.3rem;
+}
+
+/* Title slide */
+.reveal .title {
+  color: $text !important;
+}
+
+.reveal .subtitle {
+  color: #eab43e !important; // mustard
+}
+
+.reveal .author,
+.reveal .date {
+  color: #c76a38 !important; // burnt-orange tint
+}

@@ -1,0 +1,408 @@
+[
+  {
+    "objectID": "index.html#welcome",
+    "href": "index.html#welcome",
+    "title": "The Craft of Data Management",
+    "section": "Welcome",
+    "text": "Welcome"
+  },
+  {
+    "objectID": "index.html#who-i-am",
+    "href": "index.html#who-i-am",
+    "title": "The Craft of Data Management",
+    "section": "Who I Am",
+    "text": "Who I Am\n\nMy Role: Data Scientist* at AFSC Marine Mammal Lab\nMy Work: primarily ice seal and harbor seal research\nMy Approach: practical systems that support research\nMy Bias: keep it simple and accessible"
+  },
+  {
+    "objectID": "index.html#how-the-data-roles-work-together",
+    "href": "index.html#how-the-data-roles-work-together",
+    "title": "The Craft of Data Management",
+    "section": "How the Data Roles Work Together",
+    "text": "How the Data Roles Work Together\n          ┌────────────────────────────────────────────────────────┐\n          │                 1. GOVERNANCE & BLUEPRINT              │\n          │           Data Architect  •  Governance Analyst        │\n          └───────────────────────────┬────────────────────────────┘\n                                      │ (Designs the system & rules)\n                                      ▼\n          ┌────────────────────────────────────────────────────────┐\n          │                 2. THE RAW FOUNDATION                  │\n          │                     Data Engineer                      │\n          └───────────────────────────┬────────────────────────────┘\n                                      │ (Moves & structures raw data)\n                                      ▼\n          ┌────────────────────────────────────────────────────────┐\n          │                    THE STORAGE HUB                     │\n          └─────────────────┬───────────────────┬──────────────────┘\n                            │                   │\n    (For Exploration & ML)  │                   │ (For Clean Business Data)\n                            ▼                   ▼\n      ┌───────────────────────────┐       ┌───────────────────────────┐\n      │   4A. PREDICTIVE MATH     │       │    4B. DESCRIPTIVE TRENDS │\n      │   Data Scientist (1560)   │       │        Data Analyst       │\n      │  (Builds & tests models)  │       │  (Builds dashboards/KPIs) │\n      └─────────────┬─────────────┘       └─────────────┬─────────────┘\n                    │                                   │\n            (Needs Production)               (Needs Business Context)\n                    ▼                                   ▼\n      ┌───────────────────────────┐       ┌───────────────────────────┐\n      │    5A. DEPLOYMENT & AI    │       │     5B. STRATEGY & ROI    │\n      │    ML Engineer (1560)     │       │      Business Analyst     │\n      │ (Deploys code into apps)  │       │ (Translates to executive) │\n      └───────────────────────────┘       └───────────────────────────┘\n\nManagement and Program Analysis series (0304)\nOperations Research series (1515)"
+  },
+  {
+    "objectID": "index.html#the-craft-of-data-management",
+    "href": "index.html#the-craft-of-data-management",
+    "title": "The Craft of Data Management",
+    "section": "The “Craft” of Data Management",
+    "text": "The “Craft” of Data Management\n\n\nOrganize your supplies\n\nGather and purge\nSort by type\nGive each supply a home\nLabel and store\nGive yourself space for new materials\nRe-evaluate organization periodically\n\n\nStart a new project\n\nGather materials\nPrepare the workspace\nFollow the pattern\nDocument your progress\nEmbrace early mistakes\nCelebrate the finished piece"
+  },
+  {
+    "objectID": "index.html#tangled-projects",
+    "href": "index.html#tangled-projects",
+    "title": "The Craft of Data Management",
+    "section": "“Tangled” Projects",
+    "text": "“Tangled” Projects"
+  },
+  {
+    "objectID": "index.html#what-is-your-tangled-project",
+    "href": "index.html#what-is-your-tangled-project",
+    "title": "The Craft of Data Management",
+    "section": "What is Your “Tangled” Project?",
+    "text": "What is Your “Tangled” Project?\nNot necessarily a data project.\n\n\n\nA junk drawer\nA puzzle\n\n\n\nA shoebox of receipts for taxes\nA bag of unfinished crafts"
+  },
+  {
+    "objectID": "index.html#the-project-is-tangled-when",
+    "href": "index.html#the-project-is-tangled-when",
+    "title": "The Craft of Data Management",
+    "section": "The Project is Tangled When…",
+    "text": "The Project is Tangled When…\n\nFinding things is difficult\nKnowing which version to trust is difficult\nUnderstanding variables is difficult\nRecreating results is difficult\nHanding work to someone else is difficult\n\nDISCUSSION: What is your tangled project?"
+  },
+  {
+    "objectID": "index.html#the-untangling-tax",
+    "href": "index.html#the-untangling-tax",
+    "title": "The Craft of Data Management",
+    "section": "The Untangling Tax",
+    "text": "The Untangling Tax\nYou sit down to make something—but first:\n\nFind the right needle or hook.\nUntangle the thread or yarn.\nIdentify the unlabeled material.\nRemember where you stopped.\n\nIn Research\nFind the file. Decode the columns. Locate the script. Reconstruct the result."
+  },
+  {
+    "objectID": "index.html#why-this-matters-continuity",
+    "href": "index.html#why-this-matters-continuity",
+    "title": "The Craft of Data Management",
+    "section": "Why This Matters: Continuity",
+    "text": "Why This Matters: Continuity\nGood data management helps us:\n\nResume work after an interruption\nRespond to a reviewer months later\nBring a new collaborator into a project\nContinue when a team member leaves\nUnderstand what supports a published result\n\nA gift to future-you—and whoever comes next."
+  },
+  {
+    "objectID": "index.html#file-organization",
+    "href": "index.html#file-organization",
+    "title": "The Craft of Data Management",
+    "section": "File Organization",
+    "text": "File Organization"
+  },
+  {
+    "objectID": "index.html#data-management-life-cycle",
+    "href": "index.html#data-management-life-cycle",
+    "title": "The Craft of Data Management",
+    "section": "Data Management Life Cycle",
+    "text": "Data Management Life Cycle\n\nNeed to plan for storage for each step in workflow.\nYou’ve done this before, but it can feel different or scary or intimidating when applied to digital files!"
+  },
+  {
+    "objectID": "index.html#guidance-for-reorganizing",
+    "href": "index.html#guidance-for-reorganizing",
+    "title": "The Craft of Data Management",
+    "section": "Guidance for (Re)Organizing",
+    "text": "Guidance for (Re)Organizing\n\nPlan and document before starting!\nPlan (at most) 3-4 levels deep in organizational structure.\nMinimize mouse-clicking/navigation (for ‘like’ information).\nProtect raw data.\nLet legacy be legacy.\nDon’t move trash!"
+  },
+  {
+    "objectID": "index.html#reorganizational-triage",
+    "href": "index.html#reorganizational-triage",
+    "title": "The Craft of Data Management",
+    "section": "(Re)Organizational Triage",
+    "text": "(Re)Organizational Triage\n\nInventory what you have.\nClassify the inventory (e.g. keep, legacy, delete).\nBrainstorm different storage/folder structures.\nMock-up plans, if there is uncertainty or conflict.\nDocument what you plan to move where.\n\n\n\nDon’t get caught in analysis paralysis!\nDoing something is better than nothing!\nDon’t let the perfect be the enemy of the good!"
+  },
+  {
+    "objectID": "index.html#file-management-start-small",
+    "href": "index.html#file-management-start-small",
+    "title": "The Craft of Data Management",
+    "section": "File Management: Start Small",
+    "text": "File Management: Start Small\nIt’s very easy to get overwhelmed.\nStart with a minimal, repeatable structure\nThere are many options; here are two.\n\n\nOption 1\nmy_research_project/\n├── README.md\n├── 00_planning/\n├── 01_raw/\n├── 02_processed/\n├── 03_scripts/\n├── 04_outputs/\n└── 05_docs/\n\nOption 2\nmy_research_project/\n├── README.md\n├── Collection/\n├── Data/\n├── Docs/\n├── Outputs/\n├── Protocols/\n└── Scripts/"
+  },
+  {
+    "objectID": "index.html#file-management-option-1-of-many",
+    "href": "index.html#file-management-option-1-of-many",
+    "title": "The Craft of Data Management",
+    "section": "File Management: Option 1 (of many)",
+    "text": "File Management: Option 1 (of many)\nHigh variation year-to-year within the same project\nspecies/\n├── region_project_a/\n│   ├── README.md\n│   ├── 2023/\n│   ├── 2025/\n│   │   ├── 00_planning_sops/ (including everything related to fieldwork)\n│   │   ├── 01_raw/\n│   │   ├── 02_processed/\n│   │   ├── 03_scripts/ (if not on GitHub)\n│   │   ├── 04_outputs/ (with folders within for each output)\n│   │   └── 05_docs/\n│   └── 2026/\n└── region_project_b/\n    ├── README.md\n    ├── 2018/\n    ├── 2022/\n    └── 2026/\nOur files are not nearly this organized!"
+  },
+  {
+    "objectID": "index.html#file-management-option-2-of-many",
+    "href": "index.html#file-management-option-2-of-many",
+    "title": "The Craft of Data Management",
+    "section": "File Management: Option 2 (of many)",
+    "text": "File Management: Option 2 (of many)\nHigh consistency within years, irregular reporting intervals\nspecies/\n├── region_project_a/\n│   ├── README.md\n│   ├── 00_planning_sops/\n│   ├── 01_data/\n│   │   ├── 2023/\n│   │   ├── 2025/\n│   │   └── 2026/\n│   ├── 02_scripts/ (if not on GitHub)\n│   ├── 03_outputs/ (with folders within for each output)\n│   └── 04_docs/\n└── region_project_b/\n    ├── README.md\n    ├── 00_planning_sops/\n    ├── 01_data/\n    │   ├── 2018/\n    │   ├── 2022/\n    │   └── 2026/\n    ├── 02_scripts/ (if not on GitHub)\n    ├── 03_outputs/ (with folders within for each output)\n    └── 04_docs/\nOur files are not nearly this organized!"
+  },
+  {
+    "objectID": "index.html#example-pep-google-shared-drive",
+    "href": "index.html#example-pep-google-shared-drive",
+    "title": "The Craft of Data Management",
+    "section": "Example: PEP Google Shared Drive",
+    "text": "Example: PEP Google Shared Drive"
+  },
+  {
+    "objectID": "index.html#example-pep-google-shared-drive-1",
+    "href": "index.html#example-pep-google-shared-drive-1",
+    "title": "The Craft of Data Management",
+    "section": "Example: PEP Google Shared Drive",
+    "text": "Example: PEP Google Shared Drive\n\n\nProjects\nInformation to support collecting the data \n\nData\nData collected and associated products"
+  },
+  {
+    "objectID": "index.html#file-management-year-comparison",
+    "href": "index.html#file-management-year-comparison",
+    "title": "The Craft of Data Management",
+    "section": "File Management: Year Comparison",
+    "text": "File Management: Year Comparison\n\n\nYear/Project\n2024/\n├── project_a/\n├── project_b/\n└── project_c/\n2025/\n├── project_a/\n└── project_c/\n2026/\n├── project_b/\n└── project_c/\n\nProject/Year\nproject_a/\n├── 2024/\n└── 2025/\nproject_b/\n├── 2024/\n├── 2025/\n└── 2026/\nproject_c/\n├── 2024/\n└── 2026/\n\nDISCUSSION: Which do you like better and why?\n\nYear/project requires memory or knowledge.\nProject/year keeps a project together. Easier to on-board."
+  },
+  {
+    "objectID": "index.html#protect-the-original-skeins",
+    "href": "index.html#protect-the-original-skeins",
+    "title": "The Craft of Data Management",
+    "section": "Protect the Original Skeins",
+    "text": "Protect the Original Skeins\nRaw data are evidence—not a workspace.\n\nName cleanly from the collection or immediately following.\nPreserve the original files or source exports.\nWrite cleaning and transformations to separate locations (database!).\nDocument corrections rather than silently overwriting.\nRestrict modification where the storage system supports it.\n\nBuild workflows using “raw” data; store products elsewhere."
+  },
+  {
+    "objectID": "index.html#example-ice-seal-survey-data",
+    "href": "index.html#example-ice-seal-survey-data",
+    "title": "The Craft of Data Management",
+    "section": "Example: Ice Seal Survey Data",
+    "text": "Example: Ice Seal Survey Data\n\nImagery and metadata collected in the field (raw)\nQueries in DB: species counts, haulout locations, and survey effort (processed)\nOutputs from running the imagery through a machine learning model (processed/raw)\nReviewed and reconciled outputs (processed)"
+  },
+  {
+    "objectID": "index.html#example-ice-seal-surveys",
+    "href": "index.html#example-ice-seal-surveys",
+    "title": "The Craft of Data Management",
+    "section": "Example: Ice Seal Surveys",
+    "text": "Example: Ice Seal Surveys\n\n\nSurvey Data\n\n\n\n\n\n\nAnnotation Data\n\n\n\n\n\n      orange --&gt; blue \n      raw --&gt; processed\nClear guidance of file naming within project documentation"
+  },
+  {
+    "objectID": "index.html#naming-considerations",
+    "href": "index.html#naming-considerations",
+    "title": "The Craft of Data Management",
+    "section": "Naming Considerations",
+    "text": "Naming Considerations\n\nHuman-readable, but not too long\nMachine-readable, but not too short\nSorts logically (e.g. YYYY-MM-DD rather than MM-DD-YYYY)\nUse a consistent order and separator of information (e.g. project_site_date)\nUse leading zeroes to ensure correct sorting (e.g. 01, 02, 03)\nAvoid abbreviations unless they are widely understood/documented\nMake as much consistent across projects, if possible"
+  },
+  {
+    "objectID": "index.html#not-every-duplicate-is-a-mistake",
+    "href": "index.html#not-every-duplicate-is-a-mistake",
+    "title": "The Craft of Data Management",
+    "section": "Not Every Duplicate is a Mistake",
+    "text": "Not Every Duplicate is a Mistake\nSometimes, you need extra supplies.\n\nA local working cache\nA transfer or collaboration copy\nA fixed release\nAn input snapshot for an analysis or model\n\nBe intentional:\nWhy are there duplicates? Which is authoritative? Which are copies? How is it updated or retired?"
+  },
+  {
+    "objectID": "index.html#bits-and-bobs-data-access",
+    "href": "index.html#bits-and-bobs-data-access",
+    "title": "The Craft of Data Management",
+    "section": "Bits and Bobs: Data Access",
+    "text": "Bits and Bobs: Data Access\nDon’t lock yourself into a rigid access scheme.\n\nRead-only access for most users.\nLimit read-write access to those who need it.\nMaintain permissions by group, not user.\nReview access when roles change."
+  },
+  {
+    "objectID": "index.html#example-postgresql-db-permissions",
+    "href": "index.html#example-postgresql-db-permissions",
+    "title": "The Craft of Data Management",
+    "section": "Example: PostgreSQL DB Permissions",
+    "text": "Example: PostgreSQL DB Permissions"
+  },
+  {
+    "objectID": "index.html#storage-bins-cloud-considerations",
+    "href": "index.html#storage-bins-cloud-considerations",
+    "title": "The Craft of Data Management",
+    "section": "Storage Bins: Cloud Considerations",
+    "text": "Storage Bins: Cloud Considerations\nWhere we store data is different than before. And how we access it is different than before.\n\nNeed more explicit and clear guidance for what goes where"
+  },
+  {
+    "objectID": "index.html#browsing-searching-together",
+    "href": "index.html#browsing-searching-together",
+    "title": "The Craft of Data Management",
+    "section": "Browsing & Searching Together",
+    "text": "Browsing & Searching Together\nBoth are useful, so design for both.\n\n\nFolders\n\nProvide a predictable home\nPreserve nearby context\nSupport browsing\n\n\nSearch\n\nFind files across projects\nFilter by staff, year, region, species, or other metadata\nDescriptive file names are your friend!\n\n\nKeep the browseable home. Add another way to find things."
+  },
+  {
+    "objectID": "index.html#give-yourself-extra-storage-space",
+    "href": "index.html#give-yourself-extra-storage-space",
+    "title": "The Craft of Data Management",
+    "section": "Give Yourself Extra Storage Space",
+    "text": "Give Yourself Extra Storage Space\nCurrently, we have a 500k item limit on Google Shared Drives.\nThis is a hard limit, and you will get notice when you are approaching it.\nKeep this in mind as you are (re)organizing your files and folders on Shared Drives."
+  },
+  {
+    "objectID": "index.html#the-expectation-test",
+    "href": "index.html#the-expectation-test",
+    "title": "The Craft of Data Management",
+    "section": "The Expectation Test",
+    "text": "The Expectation Test\n\n\n\nFolder\n“What Do I Expect to Find Here?”\n\n\n\n\n01_raw/\nOriginal inputs\n\n\n04_outputs/\nGenerated results\n\n\nmisc/\nUnclear\n\n\nfinal_final/\nUnclear\n\n\n\nThe best folder structure is one that people can follow\n…when they’re busy.\n…when they’re working under a tight deadline.\n…when the data lead is on vacation!\nCan also use this question to guide planning and discussion."
+  },
+  {
+    "objectID": "index.html#example-beluga-data-organization",
+    "href": "index.html#example-beluga-data-organization",
+    "title": "The Craft of Data Management",
+    "section": "Example: Beluga Data Organization",
+    "text": "Example: Beluga Data Organization"
+  },
+  {
+    "objectID": "index.html#example-beluga-data-planning",
+    "href": "index.html#example-beluga-data-planning",
+    "title": "The Craft of Data Management",
+    "section": "Example: Beluga Data Planning",
+    "text": "Example: Beluga Data Planning"
+  },
+  {
+    "objectID": "index.html#actionable-next-steps",
+    "href": "index.html#actionable-next-steps",
+    "title": "The Craft of Data Management",
+    "section": "Actionable Next Steps",
+    "text": "Actionable Next Steps\n\nMake it a priority, not a side project.\nDedicate time for this work (e.g., schedule regular sessions, coworking, focused blocks).\nProvide a ready-made project template.\nTest it on one real project.\nAsk an unfamiliar colleague to try it.\nRevise confusing parts before wider rollout.\n\nWhen ideas conflict, test the task—not just the preference."
+  },
+  {
+    "objectID": "index.html#give-yourself-grace",
+    "href": "index.html#give-yourself-grace",
+    "title": "The Craft of Data Management",
+    "section": "Give Yourself Grace",
+    "text": "Give Yourself Grace\nIt is hard to get it right the first time.\n\nIt took three tries to get the PEP data organization “right”.\nAnd we had lots of meetings to get there!\n\nBe patient with yourself and others as you work to improve your data management practices!\n\nI literally bribed people with cookies to get them to help me organize the PEP data.\n\nDo not require everyone to modernize everything at once.\nChange is hard. It takes time to get it “right”."
+  },
+  {
+    "objectID": "index.html#now-that-my-supplies-are-organized",
+    "href": "index.html#now-that-my-supplies-are-organized",
+    "title": "The Craft of Data Management",
+    "section": "Now That My Supplies Are Organized",
+    "text": "Now That My Supplies Are Organized\n\nWe’re going to make a candy corn amigurumi!\n(or a data product)"
+  },
+  {
+    "objectID": "index.html#making-a-candy-corn-amigurumi",
+    "href": "index.html#making-a-candy-corn-amigurumi",
+    "title": "The Craft of Data Management",
+    "section": "Making a Candy Corn Amigurumi",
+    "text": "Making a Candy Corn Amigurumi\n\nGather materials - pick out your yarn colors\nPrepare the workspace - get your hook and pattern\nPlan and document your process/progress - Project Management\nFollow the pattern - Documentation\nEmbrace early mistakes - Oops\nCelebrate the finished piece - Maintain and Preserve"
+  },
+  {
+    "objectID": "index.html#project-management-craft",
+    "href": "index.html#project-management-craft",
+    "title": "The Craft of Data Management",
+    "section": "Project Management: Craft",
+    "text": "Project Management: Craft\nCrafting: How am I going to complete all these holiday-related embroidery projects before I decorate for the holidays?\nSOLUTION: an unexpected 43-day pause in October 2025\n\n(not recommended as a planning strategy)"
+  },
+  {
+    "objectID": "index.html#project-management-research",
+    "href": "index.html#project-management-research",
+    "title": "The Craft of Data Management",
+    "section": "Project Management: Research",
+    "text": "Project Management: Research\nResearch: How are we going to get all this work completed before the SAR deadline?\nSOLUTION: GitHub Projects"
+  },
+  {
+    "objectID": "index.html#github-projects",
+    "href": "index.html#github-projects",
+    "title": "The Craft of Data Management",
+    "section": "GitHub Projects",
+    "text": "GitHub Projects"
+  },
+  {
+    "objectID": "index.html#github-projects-1",
+    "href": "index.html#github-projects-1",
+    "title": "The Craft of Data Management",
+    "section": "GitHub Projects",
+    "text": "GitHub Projects\n\nProject management helps set the tone for organizing and documenting your work, files, and data."
+  },
+  {
+    "objectID": "index.html#documentation",
+    "href": "index.html#documentation",
+    "title": "The Craft of Data Management",
+    "section": "Documentation",
+    "text": "Documentation\n\nFile names\nData dictionaries\nREADME documents\nWorkflow/SOP documentation\nVersion control\n\nTakes time to write. Saves time when you need it later."
+  },
+  {
+    "objectID": "index.html#keep-the-label-clear-file-names",
+    "href": "index.html#keep-the-label-clear-file-names",
+    "title": "The Craft of Data Management",
+    "section": "Keep the Label: clear file names",
+    "text": "Keep the Label: clear file names\nInstead of: data_final_v2_edit.csv\nTry: harbor_seal_counts_1998-2024_20261028.csv\nAgree on:\n\nWhat the date represents\nStable project and site identifiers\nConsistent separators\nWhen a version or release label is needed\n\nA file name should make sense on its own."
+  },
+  {
+    "objectID": "index.html#keep-the-wrapper-a-data-dictionary",
+    "href": "index.html#keep-the-wrapper-a-data-dictionary",
+    "title": "The Craft of Data Management",
+    "section": "Keep the Wrapper: a data dictionary",
+    "text": "Keep the Wrapper: a data dictionary\n\n\n\nVariable\nMeaning\nUnit or allowed values\n\n\n\n\nhaulout_id\nLocation identifier\nSite lookup table\n\n\naltitude_m\nAircraft altitude\nMeters\n\n\ncount_dt\nSurvey date/time\nYYYY-MM-DD HH:MM:SS\n\n\ncount\n# seals counted\nNonnegative integer\n\n\n\nOther information might include:\nMissing values, quality flags, identifiers, and relationships."
+  },
+  {
+    "objectID": "index.html#example-pep-data-dictionary",
+    "href": "index.html#example-pep-data-dictionary",
+    "title": "The Craft of Data Management",
+    "section": "Example: PEP Data Dictionary",
+    "text": "Example: PEP Data Dictionary"
+  },
+  {
+    "objectID": "index.html#example-pep-data-dictionary-1",
+    "href": "index.html#example-pep-data-dictionary-1",
+    "title": "The Craft of Data Management",
+    "section": "Example: PEP Data Dictionary",
+    "text": "Example: PEP Data Dictionary"
+  },
+  {
+    "objectID": "index.html#the-pattern-a-readme",
+    "href": "index.html#the-pattern-a-readme",
+    "title": "The Craft of Data Management",
+    "section": "The Pattern: a README",
+    "text": "The Pattern: a README\nA useful README answers:\n\nFolder structure (what’s where)\nNaming scheme (how things are named)\nLink to project documentation/SOPs (how we did/do things related to these files)\n\nWrite down what memory is currently supplying."
+  },
+  {
+    "objectID": "index.html#the-pattern-book-workflowsops",
+    "href": "index.html#the-pattern-book-workflowsops",
+    "title": "The Craft of Data Management",
+    "section": "The Pattern Book: workflow/SOPs",
+    "text": "The Pattern Book: workflow/SOPs\nA README documents the contents.\nThe workflow/SOPs documents the process.\n\nWhat is this project?\nWho maintains it?\nWhere did the data come from?\nWhat do I run—and in what order?\nWhat should the workflow produce?\nWhat restrictions or known limitations apply?"
+  },
+  {
+    "objectID": "index.html#record-the-tools-not-just-stitches",
+    "href": "index.html#record-the-tools-not-just-stitches",
+    "title": "The Craft of Data Management",
+    "section": "Record the Tools, Not Just Stitches",
+    "text": "Record the Tools, Not Just Stitches\nA pattern is incomplete without the hook size and gauge.\n\n\nFor an analysis or workflow, record:\n\nSoftware and package versions\nEnvironment or dependency files\nParameters and configuration\nExecution order\nExternal inputs and services"
+  },
+  {
+    "objectID": "index.html#things-happen",
+    "href": "index.html#things-happen",
+    "title": "The Craft of Data Management",
+    "section": "Things Happen",
+    "text": "Things Happen"
+  },
+  {
+    "objectID": "index.html#the-row-counter-version-history",
+    "href": "index.html#the-row-counter-version-history",
+    "title": "The Craft of Data Management",
+    "section": "The Row Counter: version history",
+    "text": "The Row Counter: version history\nUse version history to answer:\n\nWhat changed and why?\nWhy did it change?\nWhich version produced this result?\nCan we compare or recover earlier work?\n\nGit is useful for code and text.\nData need an appropriate versioning strategy, too.\nFile naming? GitHub? Database tooling?"
+  },
+  {
+    "objectID": "index.html#project-hand-off",
+    "href": "index.html#project-hand-off",
+    "title": "The Craft of Data Management",
+    "section": "Project Hand-off",
+    "text": "Project Hand-off\nA half-finished project is not necessarily a problem.\nA half-finished project with no consistency or notes is difficult to continue.\nA project handoff should identify:\n\nOriginal and processed data\nWorking code and its environment\nThe route from inputs to key outputs\nKnown problems and unfinished work\nThe next responsible person"
+  },
+  {
+    "objectID": "index.html#two-minute-activity-the-handoff",
+    "href": "index.html#two-minute-activity-the-handoff",
+    "title": "The Craft of Data Management",
+    "section": "Two-minute Activity: The Handoff",
+    "text": "Two-minute Activity: The Handoff\n\n \nChoose a project you know.\nBrainstorm:\n\nOne thing a new person would struggle to find\nOne fact that currently lives only in someone’s memory\nOne small change that would help next week\n\nAsk: “What would make the next stitch easier?”\nDISCUSSION: Share one thing you wrote down."
+  },
+  {
+    "objectID": "index.html#you-did-it",
+    "href": "index.html#you-did-it",
+    "title": "The Craft of Data Management",
+    "section": "You Did It!",
+    "text": "You Did It!"
+  },
+  {
+    "objectID": "index.html#finished-pieces-still-need-care",
+    "href": "index.html#finished-pieces-still-need-care",
+    "title": "The Craft of Data Management",
+    "section": "Finished Pieces Still Need Care…",
+    "text": "Finished Pieces Still Need Care…\nPreservation\n\nWhat must remain usable?\nWhich files and documentation belong together?\nWhere is the approved long-term home?\nWho is responsible for access and maintenance?\nHow will integrity and recovery be checked?"
+  },
+  {
+    "objectID": "index.html#and-occasionally-mending",
+    "href": "index.html#and-occasionally-mending",
+    "title": "The Craft of Data Management",
+    "section": "…and Occasionally, Mending",
+    "text": "…and Occasionally, Mending\nMaintenance at useful milestones:\n\nBefore a new collaborator joins\nBefore a major analysis or release\nBefore publication or project closure\nBefore a team member leaves\n\nReview:\nLocations · Documentation · Access · Ownership · Recovery\nA little regular care beats a large rescue effort later."
+  },
+  {
+    "objectID": "index.html#lots-of-informationnow-what",
+    "href": "index.html#lots-of-informationnow-what",
+    "title": "The Craft of Data Management",
+    "section": "Lots of Information…Now What?",
+    "text": "Lots of Information…Now What?\n“Take a deep breath…and say ‘yeah, I can do that’”\n~presenter at Posit::conf 2026"
+  },
+  {
+    "objectID": "index.html#example-pep-data-management-plan",
+    "href": "index.html#example-pep-data-management-plan",
+    "title": "The Craft of Data Management",
+    "section": "Example: PEP Data Management Plan",
+    "text": "Example: PEP Data Management Plan\n\nThis is 10 years in the making. Be patient! (link to plan)"
+  },
+  {
+    "objectID": "index.html#less-untangling.-more-science.",
+    "href": "index.html#less-untangling.-more-science.",
+    "title": "The Craft of Data Management",
+    "section": "Less untangling. More science.",
+    "text": "Less untangling. More science.\n\n\n\nTangle\nSolution\n\n\n\n\nFinding things\nPredictable organization\n\n\nKnowing what to trust\nClear file naming\n\n\nUnderstanding data\nREADME and data dictionary\n\n\nRecreating results\nVersioning and history\n\n\nHanding off the work\nSOPs\n\n\n\nWhat would make the next stitch easier?"
+  }
+]
