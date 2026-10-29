@@ -86,7 +86,7 @@ execute:
 ::: {.column width="50%"}
 *Start a new project*
 
-- Gather materials
+- Gather and organize materials
 - Prepare the workspace
 - Follow the pattern
 - Document your progress
@@ -174,7 +174,7 @@ Need to plan for storage for each step in workflow.
 - Minimize mouse-clicking/navigation (for 'like' information).
 - Protect raw data.
 - Let legacy be legacy.
-- Don't move trash!
+- Don't move or organize trash!
 
 ## (Re)Organizational Triage
 
@@ -197,6 +197,19 @@ Need to plan for storage for each step in workflow.
 ![](images/planning.jpg){fig-align="center"}  
 :::
 ::::::
+
+## Not Every Duplicate is a Mistake 
+
+*Sometimes, you need extra supplies.*
+
+- A local working cache
+- A transfer or collaboration copy
+- A fixed release
+- An input snapshot for an analysis or model
+
+Be intentional:
+
+**Why are there duplicates? Which is authoritative? Which are copies? How is it updated or retired?**
 
 ## File Management: Start Small 
 
@@ -403,29 +416,6 @@ project_c/
 
 ::::::
 
-## Naming Considerations
-
-- Human-readable, but not too long
-- Machine-readable, but not too short
-- Sorts logically (e.g. YYYY-MM-DD rather than MM-DD-YYYY)
-- Use a consistent order and separator of information (e.g. project_site_date)
-- Use leading zeroes to ensure correct sorting (e.g. 01, 02, 03)
-- Avoid abbreviations unless they are widely understood/documented
-- Make as much consistent across projects, if possible
-
-## Not Every Duplicate is a Mistake 
-
-*Sometimes, you need extra supplies.*
-
-- A local working cache
-- A transfer or collaboration copy
-- A fixed release
-- An input snapshot for an analysis or model
-
-Be intentional:
-
-**Why are there duplicates? Which is authoritative? Which are copies? How is it updated or retired?**
-
 ## Bits and Bobs: Data Access
 
 *Don't lock yourself into a rigid access scheme.*
@@ -490,11 +480,13 @@ Keep this in mind as you are (re)organizing your files and folders on Shared Dri
 
 The best folder structure is one that people can follow
 
+::: {style="font-size: 0.55em;"}
 ...when they're busy.
 
 ...when they're working under a tight deadline.
 
 ...when the data lead is on vacation!
+:::
 
 *Can also use this question to guide planning and discussion.*
 
@@ -542,7 +534,7 @@ I literally bribed people with cookies to get them to help me organize the PEP d
 
 We're going to make a candy corn amigurumi! 
 
-(or a data product)
+(or a new research effort, or an analysis or a data product)
 
 ## Making a Candy Corn Amigurumi
 
@@ -574,7 +566,7 @@ We're going to make a candy corn amigurumi!
 ::::::
 
 ## Project Management: Research
-*Research:* How are we going to get all this work completed before the SAR deadline?
+*Research:* How are we going to get all this work completed before the analysis deadline?
 
 **SOLUTION: GitHub Projects**
 
@@ -614,6 +606,16 @@ Agree on:
 - When a version or release label is needed
 
 **A file name should make sense on its own.**
+
+## Naming Considerations
+
+- Human-readable, but not too long
+- Machine-readable, but not too short
+- Sorts logically (e.g. YYYY-MM-DD rather than MM-DD-YYYY)
+- Use a consistent order and separator of information (e.g. project_site_date)
+- Use leading zeroes to ensure correct sorting (e.g. 01, 02, 03)
+- Avoid abbreviations unless they are widely understood/documented
+- Make as much consistent across projects, if possible
 
 ## Keep the Wrapper: a data dictionary 
 

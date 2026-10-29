@@ -25,7 +25,7 @@
     "href": "index.html#the-craft-of-data-management",
     "title": "The Craft of Data Management",
     "section": "The “Craft” of Data Management",
-    "text": "The “Craft” of Data Management\n\n\nOrganize your supplies\n\nGather and purge\nSort by type\nGive each supply a home\nLabel and store\nGive yourself space for new materials\nRe-evaluate organization periodically\n\n\nStart a new project\n\nGather materials\nPrepare the workspace\nFollow the pattern\nDocument your progress\nEmbrace early mistakes\nCelebrate the finished piece"
+    "text": "The “Craft” of Data Management\n\n\nOrganize your supplies\n\nGather and purge\nSort by type\nGive each supply a home\nLabel and store\nGive yourself space for new materials\nRe-evaluate organization periodically\n\n\nStart a new project\n\nGather and organize materials\nPrepare the workspace\nFollow the pattern\nDocument your progress\nEmbrace early mistakes\nCelebrate the finished piece"
   },
   {
     "objectID": "index.html#tangled-projects",
@@ -81,7 +81,7 @@
     "href": "index.html#guidance-for-reorganizing",
     "title": "The Craft of Data Management",
     "section": "Guidance for (Re)Organizing",
-    "text": "Guidance for (Re)Organizing\n\nPlan and document before starting!\nPlan (at most) 3-4 levels deep in organizational structure.\nMinimize mouse-clicking/navigation (for ‘like’ information).\nProtect raw data.\nLet legacy be legacy.\nDon’t move trash!"
+    "text": "Guidance for (Re)Organizing\n\nPlan and document before starting!\nPlan (at most) 3-4 levels deep in organizational structure.\nMinimize mouse-clicking/navigation (for ‘like’ information).\nProtect raw data.\nLet legacy be legacy.\nDon’t move or organize trash!"
   },
   {
     "objectID": "index.html#reorganizational-triage",
@@ -89,6 +89,13 @@
     "title": "The Craft of Data Management",
     "section": "(Re)Organizational Triage",
     "text": "(Re)Organizational Triage\n\nInventory what you have.\nClassify the inventory (e.g. keep, legacy, delete).\nBrainstorm different storage/folder structures.\nMock-up plans, if there is uncertainty or conflict.\nDocument what you plan to move where.\n\n\n\nDon’t get caught in analysis paralysis!\nDoing something is better than nothing!\nDon’t let the perfect be the enemy of the good!"
+  },
+  {
+    "objectID": "index.html#not-every-duplicate-is-a-mistake",
+    "href": "index.html#not-every-duplicate-is-a-mistake",
+    "title": "The Craft of Data Management",
+    "section": "Not Every Duplicate is a Mistake",
+    "text": "Not Every Duplicate is a Mistake\nSometimes, you need extra supplies.\n\nA local working cache\nA transfer or collaboration copy\nA fixed release\nAn input snapshot for an analysis or model\n\nBe intentional:\nWhy are there duplicates? Which is authoritative? Which are copies? How is it updated or retired?"
   },
   {
     "objectID": "index.html#file-management-start-small",
@@ -154,20 +161,6 @@
     "text": "Example: Ice Seal Surveys\n\n\nSurvey Data\n\n\n\n\n\n\nAnnotation Data\n\n\n\n\n\n      orange --&gt; blue \n      raw --&gt; processed\nClear guidance of file naming within project documentation"
   },
   {
-    "objectID": "index.html#naming-considerations",
-    "href": "index.html#naming-considerations",
-    "title": "The Craft of Data Management",
-    "section": "Naming Considerations",
-    "text": "Naming Considerations\n\nHuman-readable, but not too long\nMachine-readable, but not too short\nSorts logically (e.g. YYYY-MM-DD rather than MM-DD-YYYY)\nUse a consistent order and separator of information (e.g. project_site_date)\nUse leading zeroes to ensure correct sorting (e.g. 01, 02, 03)\nAvoid abbreviations unless they are widely understood/documented\nMake as much consistent across projects, if possible"
-  },
-  {
-    "objectID": "index.html#not-every-duplicate-is-a-mistake",
-    "href": "index.html#not-every-duplicate-is-a-mistake",
-    "title": "The Craft of Data Management",
-    "section": "Not Every Duplicate is a Mistake",
-    "text": "Not Every Duplicate is a Mistake\nSometimes, you need extra supplies.\n\nA local working cache\nA transfer or collaboration copy\nA fixed release\nAn input snapshot for an analysis or model\n\nBe intentional:\nWhy are there duplicates? Which is authoritative? Which are copies? How is it updated or retired?"
-  },
-  {
     "objectID": "index.html#bits-and-bobs-data-access",
     "href": "index.html#bits-and-bobs-data-access",
     "title": "The Craft of Data Management",
@@ -207,7 +200,7 @@
     "href": "index.html#the-expectation-test",
     "title": "The Craft of Data Management",
     "section": "The Expectation Test",
-    "text": "The Expectation Test\n\n\n\nFolder\n“What Do I Expect to Find Here?”\n\n\n\n\n01_raw/\nOriginal inputs\n\n\n04_outputs/\nGenerated results\n\n\nmisc/\nUnclear\n\n\nfinal_final/\nUnclear\n\n\n\nThe best folder structure is one that people can follow\n…when they’re busy.\n…when they’re working under a tight deadline.\n…when the data lead is on vacation!\nCan also use this question to guide planning and discussion."
+    "text": "The Expectation Test\n\n\n\nFolder\n“What Do I Expect to Find Here?”\n\n\n\n\n01_raw/\nOriginal inputs\n\n\n04_outputs/\nGenerated results\n\n\nmisc/\nUnclear\n\n\nfinal_final/\nUnclear\n\n\n\nThe best folder structure is one that people can follow\n\n…when they’re busy.\n…when they’re working under a tight deadline.\n…when the data lead is on vacation!\n\nCan also use this question to guide planning and discussion."
   },
   {
     "objectID": "index.html#example-beluga-data-organization",
@@ -242,7 +235,7 @@
     "href": "index.html#now-that-my-supplies-are-organized",
     "title": "The Craft of Data Management",
     "section": "Now That My Supplies Are Organized",
-    "text": "Now That My Supplies Are Organized\n\nWe’re going to make a candy corn amigurumi!\n(or a data product)"
+    "text": "Now That My Supplies Are Organized\n\nWe’re going to make a candy corn amigurumi!\n(or a new research effort, or an analysis or a data product)"
   },
   {
     "objectID": "index.html#making-a-candy-corn-amigurumi",
@@ -263,7 +256,7 @@
     "href": "index.html#project-management-research",
     "title": "The Craft of Data Management",
     "section": "Project Management: Research",
-    "text": "Project Management: Research\nResearch: How are we going to get all this work completed before the SAR deadline?\nSOLUTION: GitHub Projects"
+    "text": "Project Management: Research\nResearch: How are we going to get all this work completed before the analysis deadline?\nSOLUTION: GitHub Projects"
   },
   {
     "objectID": "index.html#github-projects",
@@ -292,6 +285,13 @@
     "title": "The Craft of Data Management",
     "section": "Keep the Label: clear file names",
     "text": "Keep the Label: clear file names\nInstead of: data_final_v2_edit.csv\nTry: harbor_seal_counts_1998-2024_20261028.csv\nAgree on:\n\nWhat the date represents\nStable project and site identifiers\nConsistent separators\nWhen a version or release label is needed\n\nA file name should make sense on its own."
+  },
+  {
+    "objectID": "index.html#naming-considerations",
+    "href": "index.html#naming-considerations",
+    "title": "The Craft of Data Management",
+    "section": "Naming Considerations",
+    "text": "Naming Considerations\n\nHuman-readable, but not too long\nMachine-readable, but not too short\nSorts logically (e.g. YYYY-MM-DD rather than MM-DD-YYYY)\nUse a consistent order and separator of information (e.g. project_site_date)\nUse leading zeroes to ensure correct sorting (e.g. 01, 02, 03)\nAvoid abbreviations unless they are widely understood/documented\nMake as much consistent across projects, if possible"
   },
   {
     "objectID": "index.html#keep-the-wrapper-a-data-dictionary",
